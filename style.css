@@ -1,0 +1,162 @@
+/* ========= Reset / base ========= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 90%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: #111;
+  
+}
+
+img {
+  border-radius: 35px;
+}
+
+
+.layout-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  min-height: 100vh;
+}
+
+.layout-table td {
+  vertical-align: top;
+}
+
+
+.header-cell {
+  background-image: url('congresso4.jpg');
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.header-title {
+  color: #259dff;
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 28px 16px;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+
+
+.hero-img {
+  display: block;
+  margin: 18px auto 0 auto;
+  width: min(40%, 520px);
+  max-width: 90%;
+  height: auto;
+}
+
+.section-title{
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 22px 0 26px 0;
+}
+
+.content-wrap {
+  padding: 0 8%;
+  text-align: justify;
+  font-size: 20px;
+  line-height: 1.65;
+  margin-bottom: 60px;
+}
+
+
+
+.caption {
+  color: #6c757d;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-top: 2px;
+  margin-bottom: 1px;
+  text-align: center;
+}
+
+.video-wrap {
+  display: flex;
+  justify-content: center;
+  margin:   40px 5px 0;
+}
+
+.video {
+  width: min(560px, 100%);
+  aspect-ratio: 16/9;
+  border: 0;
+}
+
+
+.events-title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top:30px;
+  margin-bottom: 10px;
+}
+.events {
+  font-size: 18px;
+  margin: 10px 0 0 18px;
+}
+
+.events>li {
+  margin: 10px 0 8px 0;
+}
+
+.events .time {
+  display: block;
+  margin-left: 12px;
+  margin-top: 6px;
+  
+  
+}
+
+
+.footer-cell {
+  background-color: #003366;
+  text-align: center;
+  padding: 20px 12px;
+}
+
+.footer-text {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.insta-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  transition: transform .15s ease, color .15s ease;
+}
+
+.insta-link i {
+  transition: transform .15s ease;
+  font-size: 24px;
+}
+
+.insta-link:hover {
+  color: #f09433;
+}
+
+.insta-link:hover i {
+  transform: scale(1.22);
+}
