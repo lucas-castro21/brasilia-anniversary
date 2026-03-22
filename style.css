@@ -1,4 +1,4 @@
-/* ========= Reset / base ========= */
+
 * {
   margin: 0;
   padding: 0;
@@ -66,7 +66,7 @@ img {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  margin: 22px 0 26px 0;
+  margin: 15px 0 60px 0;
 }
 
 .content-wrap {
@@ -92,7 +92,7 @@ img {
 .video-wrap {
   display: flex;
   justify-content: center;
-  margin:   40px 5px 0;
+  margin:   50px 5px 0;
 }
 
 .video {
